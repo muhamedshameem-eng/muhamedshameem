@@ -1,0 +1,95 @@
+.cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.layout {
+    height: 540px;
+    width: 1200px;
+    border: 5px groove goldenrod;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+
+}
+
+.layout img {
+    width: 200px;
+    height: 130px;
+    border: 4px outset black;
+    border-radius: 10px;
+}
+
+.layout a {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 18px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.layout img:hover {
+    transform: scale(1.3);
+    transition: ease-in-out;
+    z-index: 1;
+    position: relative;
+
+}
+
+@media screen and (max-width: 560px) {
+    .cont {
+        display: flex;
+        justify-content: center;
+        margin-top: 460px;
+
+    }
+
+    .layout {
+        height: 0px;
+        width: 0px;
+        border: 0px groove goldenrod;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+
+    }
+
+    .layout img {
+        width: 240px;
+        height: 140px;
+        border: 3px outset black;
+        border-radius: 10px;
+
+    }
+
+    .layout a {
+        text-decoration: none;
+        color: goldenrod;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .layout img:hover {
+        transform: none
+    }
+
+    footer {
+        
+        position: relative;
+        width: 100%;
+        height: 8%;
+        bottom: -450px;
+        justify-items: center;
+        border-top: 2px groove goldenrod;
+
+    }
+}

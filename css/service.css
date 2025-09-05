@@ -1,0 +1,41 @@
+.layout .sub a{
+    text-decoration: none;
+    text-align: center;
+    color: goldenrod;
+    border: 3px outset black;
+    height: 150px;
+    width: 400px;
+    margin: 5px;
+    align-content: center;
+    background-color: black;
+
+}
+.layout {
+    margin-bottom: 30px;
+}
+.sub{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+@media screen and (max-width: 560px) {
+    .sub{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+        
+    }
+    .layout .sub a{
+        width: 250px;
+        height: 80px;
+        font-size: 12px;
+        margin: 5px;
+    }
+    .layout{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
