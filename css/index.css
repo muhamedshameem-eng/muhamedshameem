@@ -54,14 +54,7 @@
     color: black;
 }
 
-.pdf :hover {
-    background-color: seagreen;
-    transform: scale(1.1);
-    outline: 10px solid seagreen;
-    color: whitesmoke;
-    box-shadow: 9px 9px 9px 9px;
-    overflow: hidden;
-}
+
 
 .detail h1:hover {
     background-color: black;
@@ -157,4 +150,5 @@
         margin-left: 100px;
 
     }
+
 }
